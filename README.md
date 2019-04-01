@@ -31,12 +31,12 @@ gulp.task('css', function() {
     .pipe(gulp.dest('./dest'));
  });
 
-//Permet de juste tapper gulp dans la command line pour runner 
+//Permet de juste tapper gulp dans la command line pour runner //
 gulp.task('default', ['serve']);
 
 
 *****************************************
-//Pour installer des plugins
+//Pour installer des plugins//
 npm install autoprefixer --save-dev
 
 npm i cssnano --save-dev
